@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "vanilla-lazyload": "^19.1.3"
+  }
+}
