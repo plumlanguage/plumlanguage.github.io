@@ -21,50 +21,73 @@ export default defineConfig({
       {
         text: '驱动包',
         items: [
-          { text: 'Kotlin', link: 'docs/zh/驱动包/kotlin' },
+          { text: 'Kotlin', link: '/驱动包/kotlin' },
         ]
       },
       {
         text: '数据格式',
         items: [
-          { text: '类（Class）', link: 'docs/zh/数据格式/Class' },
-            {text:'单值（X）', link: 'docs/zh/数据格式/X'}
+          { text: '类（Class）', link: 'shell操作/数据格式/Class' },
+            {text:'单值（X）', link: 'shell操作/数据格式/X'}
         ]
       },
       {
         text: '命令DOC',
         items: [
-          { text: '操作类', link: 'docs/zh/命令/Class' },
-          { text: '初始化', link: 'docs/zh/命令/Init' },
-            { text: '操作单值', link: 'docs/zh/命令/X' }
+          { text: '操作类', link: 'shell操作/命令/Class' },
+          { text: '初始化', link: 'shell操作/命令/Init' },
+            { text: '操作单值', link: 'shell操作/命令/X' }
         ]
       }
     ],
+    sidebar: {
+      '/快速开始/': [
+        {
+          text: '基本概念',
+          items: [
+            { text: 'Durian的工作原理', link: '/快速开始/基本概念/Durian的工作原理' },
+            { text: '配置Durian', link: '/快速开始/基本概念/配置Durian' }
+          ]
+        },
+        {
+          text: '其他使用说明',
+          items: [
+            { text: '驱动包', link: '/快速开始/其他使用说明/驱动包' }
+          ]
+        },
+        {
+          text: '驱动包API',
+          items: [
+            { text: 'Kotlin', link: '/快速开始/驱动包API/DurianForKotlin' }
+          ]
+        }
+      ],
+      '/shell操作/': [
+          {
+          text: '数据格式',
+          items: [
+            { text: '类（Class）', link: 'shell操作/数据格式/Class' },
+            { text: '单值（X）', link: 'shell操作/数据格式/X' }
+          ]
+          },
+          {
+          text: '命令',
+          items: [
+            { text: '操作类', link: 'shell操作/命令/Class' },
+            { text: '初始化', link: 'shell操作/命令/Init' },
+            { text: '操作单值', link: 'shell操作/命令/X' }
+          ]
+        }
+      ],
+      '/驱动包/': [
+          { text: 'Durian for Kotlin', link: '/驱动包/kotlin' },
+        { text: 'Durian for Java', link: '/驱动包/java' }
+      ]
+    }
 
-    sidebar: [
-      {
-        text: '基本概念',
-        items: [
-          { text: 'Durian的工作原理', link: '/docs/zh/基本概念/Durian的工作原理' },
-          { text: '配置Durian', link: '/docs/zh/基本概念/配置Durian' }
-        ]
-      },
-      {
-        text: '其他使用说明',
-        items: [
-          { text: '驱动包', link: '/docs/zh/其他使用说明/驱动包' }
-        ]
-      },
-      {
-        text: '驱动包API',
-        items: [
-          { text: 'Kotlin', link: '/docs/zh/驱动包API/DurianForKotlin' }
-        ]
-      }
-    ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    // socialLinks: [
+    //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    // ]
   }
 })
