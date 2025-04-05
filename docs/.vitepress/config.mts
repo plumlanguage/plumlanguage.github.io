@@ -20,12 +20,6 @@ export default defineConfig({
         ]
       },
       {
-        text: '驱动包',
-        items: [
-          { text: 'Kotlin', link: '/驱动包/kotlin' },
-        ]
-      },
-      {
         text: '数据格式',
         items: [
           { text: '类（Class）', link: 'shell操作/数据格式/Class' },
