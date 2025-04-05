@@ -13,10 +13,10 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /快速开始
+      link: /快速开始/index
     - theme: alt
       text: 驱动包下载
-      link: /驱动包
+      link: /驱动包/index
     - theme: alt
       text: 加入交流
       link: /s
