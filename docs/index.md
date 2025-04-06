@@ -18,6 +18,9 @@ hero:
       text: 驱动包下载
       link: /驱动包/index
     - theme: alt
+      text: Durian下载
+      link: https://github.com/plumlanguage/Durian/tags
+    - theme: alt
       text: 加入交流
       link: /s
 
