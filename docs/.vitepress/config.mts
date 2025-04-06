@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
 
+const Durianversion = 'v 0.2'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   ignoreDeadLinks: true,
@@ -10,6 +12,10 @@ export default defineConfig({
   ],
   description: "一个可以集成到您项目的数据管理工具",
   themeConfig: {
+    // Logo
+    logo: { src: '/logo.png', width: 24, height: 24, alt: 'Durian Logo' },
+    // 站点标题
+    siteTitle: "Durian<code class=\"VPBadge tip\">v 0.2</code>",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       {
