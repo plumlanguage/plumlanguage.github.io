@@ -23,6 +23,12 @@ name: '驱动包',
 link: '/快速开始/其他使用说明/驱动包',
 icon: 'fluent-color:puzzle-piece-20',
 color: '#2ecc71'
+},
+{
+name: '视频学习',
+link: '/快速开始/其他使用说明/驱动包',
+icon: 'fluent-color:content-view-28',
+color: '#2ecc71'
 }
 ]"
 />
